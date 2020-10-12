@@ -1,0 +1,12 @@
+!SESSION 2020-10-12 13:16:40.748 -----------------------------------------------
+eclipse.buildId=Version 1.4.0
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-10-12 13:33:02.724
+!MESSAGE Log4j initialized with config file D:\cytometr_reliable-USB-delivery\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-10-12 13:33:16.261
+!MESSAGE Started RMI Server, listening on port 41337

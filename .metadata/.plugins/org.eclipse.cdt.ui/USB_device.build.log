@@ -1,6 +1,19 @@
-18:35:18 **** Incremental Build of configuration Debug for project USB_device ****
+20:24:36 **** Incremental Build of configuration Debug for project USB_device ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:73:29: warning: implicit declaration of function 'exp' [-Wimplicit-function-declaration]
+     data[x] = (int) (150 * (exp(-(x - 100) * (x - 100) / 50 ) + exp(-(x - 700) * (x - 700) / 20000  ) ));
+                             ^~~
+../Core/Src/main.c:73:29: warning: incompatible implicit declaration of built-in function 'exp'
+../Core/Src/main.c:73:29: note: include '<math.h>' or provide a declaration of 'exp'
+../Core/Src/main.c:107:12: warning: implicit declaration of function 'CDC_Transmit_FS' [-Wimplicit-function-declaration]
+      while(CDC_Transmit_FS(&startSymbol, 1) == USBD_BUSY);
+            ^~~~~~~~~~~~~~~
+../Core/Src/main.c:113:51: warning: incompatible implicit declaration of built-in function 'exp'
+         data[x] = (int) (1 + rand() % 10 + 150 * (exp(-(x - 100) * (x - 100) / 50 ) + exp(-(x - 700) * (x - 700) / 20000  ) ));
+                                                   ^~~
+../Core/Src/main.c:113:51: note: include '<math.h>' or provide a declaration of 'exp'
 arm-none-eabi-gcc -o "USB_device.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\cytometr_reliable-USB-delivery\USB_device\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USB_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: USB_device.elf
  
@@ -8,7 +21,7 @@ arm-none-eabi-objdump -h -S  USB_device.elf  > "USB_device.list"
 arm-none-eabi-objcopy  -O binary  USB_device.elf  "USB_device.bin"
 arm-none-eabi-size   USB_device.elf 
    text	   data	    bss	    dec	    hex	filename
-  26736	    388	   3844	  30968	   78f8	USB_device.elf
+  32152	    496	   4880	  37528	   9298	USB_device.elf
 Finished building: default.size.stdout
  
 Finished building: USB_device.bin
@@ -16,5 +29,5 @@ Finished building: USB_device.bin
 Finished building: USB_device.list
  
 
-18:35:25 Build Finished. 0 errors, 0 warnings. (took 6s.112ms)
+20:24:37 Build Finished. 0 errors, 4 warnings. (took 1s.378ms)
 

@@ -1480,3 +1480,394 @@
 2020-10-13 15:14:07,532 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2163mS.
 2020-10-13 15:14:07,536 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
 2020-10-13 15:14:07,536 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-10-13 15:45:33,240 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-13 15:45:33,241 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-13 15:45:33,365 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-10-13 15:45:33,365 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-10-13 15:45:33,366 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-10-13 15:45:33,366 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-10-13 15:45:33,366 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-10-13 15:45:33,369 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-13 15:45:33,376 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 464721728 Bytes (962592768)
+2020-10-13 15:45:33,377 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-10-13 15:45:33,377 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-10-13 15:45:33,377 [INFO] OpenFileManager:274 - Change cursor
+2020-10-13 15:45:37,851 [INFO] RulesReader:52 - Compatibility file has been processed (209 Rules)
+2020-10-13 15:45:45,251 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-13 15:45:45,251 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-13 15:45:45,251 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-13 15:45:45,252 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1602484938504]
+2020-10-13 15:45:45,252 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : GFX01M1_Condition id : 1602484938489
+2020-10-13 15:45:45,252 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1602484938504]
+2020-10-13 15:45:45,252 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : GFX01M1_HelloWorld_Condition id : 1602484938491
+2020-10-13 15:45:45,253 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2020-10-13 15:45:45,253 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2020-10-13 15:45:45,253 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2020-10-13 15:45:45,254 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2020-10-13 15:45:45,254 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1602574019385
+2020-10-13 15:45:45,256 [WARN] ApiManager:274 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.0.0: no header file found
+2020-10-13 15:45:45,256 [WARN] ApiManager:274 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.0.0: no header file found
+2020-10-13 15:45:45,256 [WARN] ApiManager:274 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.0.0: no header file found
+2020-10-13 15:45:45,257 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.2.0.0: no header file found
+2020-10-13 15:45:45,257 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.2.0.0: no header file found
+2020-10-13 15:45:45,257 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.2.0.0: no header file found
+2020-10-13 15:45:45,258 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.0.0: no header file found
+2020-10-13 15:45:45,259 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.0.0: no header file found
+2020-10-13 15:45:45,775 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 704067280 Bytes (962592768)
+2020-10-13 15:45:45,776 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2020-10-13 15:45:45,776 [INFO] ThirdParty:743 - entering critical section [change project]
+2020-10-13 15:45:45,776 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.1.1
+2020-10-13 15:45:45,776 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2020-10-13 15:45:45,776 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2020-10-13 15:45:45,776 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-10-13 15:45:45,776 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2020-10-13 15:45:45,776 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.0.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 2.0.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.0.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.15.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.0.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2020-10-13 15:45:45,777 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2020-10-13 15:45:45,778 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2020-10-13 15:45:45,778 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2020-10-13 15:45:45,778 [INFO] ThirdParty:749 - exiting critical section [change project]
+2020-10-13 15:45:46,014 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-13 15:45:46,016 [INFO] PinOutPanel:1418 - setPackage(STM32H743VITx,LQFP100)
+2020-10-13 15:45:46,648 [INFO] UtilMem:74 - Before build in PCC Used Memory: 560985304 Bytes (962592768)
+2020-10-13 15:45:47,052 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Mikhail_Kalinichenko/.stm32cubemx/plugins/power
+2020-10-13 15:45:47,087 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Mikhail_Kalinichenko/.stm32cubemx/plugins/power
+2020-10-13 15:45:47,119 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Mikhail_Kalinichenko/.stm32cubemx/plugins/power
+2020-10-13 15:45:47,129 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Mikhail_Kalinichenko/.stm32cubemx/plugins/power
+2020-10-13 15:45:47,193 [INFO] UtilMem:74 - After build in PCC Used Memory: 618134736 Bytes (962592768)
+2020-10-13 15:45:47,231 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,232 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,232 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,232 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,232 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,232 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,232 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,232 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,233 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,233 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,233 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,233 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,233 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,233 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,233 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,233 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,234 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,235 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,235 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,235 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,235 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,235 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,236 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,236 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,236 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,236 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,237 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,237 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,237 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,237 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,238 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,238 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,238 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,238 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,238 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,238 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,238 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,239 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,239 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,239 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,239 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,239 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,239 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,239 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,240 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,240 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,240 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,240 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,240 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,240 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,240 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,241 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,241 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,241 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,241 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,241 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,241 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,241 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,242 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,242 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,242 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,242 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,243 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,243 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,243 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,243 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,243 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,243 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,244 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,244 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,244 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,244 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,244 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,244 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,245 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,245 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,245 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,245 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,246 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,246 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,246 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,246 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,246 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,246 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,247 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,247 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,247 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,248 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:45:47,470 [INFO] OpenFileManager:294 - Restore cursor
+2020-10-13 15:46:04,579 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-13 15:46:04,580 [INFO] MainUpdater:2268 - connection check result : 10
+2020-10-13 15:46:04,627 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-10-13 15:46:04,627 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-10-13 15:46:04,627 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-10-13 15:46:04,627 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-10-13 15:46:04,628 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-10-13 15:46:04,629 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-13 15:46:04,633 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 513144528 Bytes (962592768)
+2020-10-13 15:46:04,634 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-10-13 15:46:04,634 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-10-13 15:46:04,634 [INFO] OpenFileManager:274 - Change cursor
+2020-10-13 15:46:06,494 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-13 15:46:06,495 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-13 15:46:06,495 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-10-13 15:46:06,495 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1602484938504]
+2020-10-13 15:46:06,495 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : GFX01M1_Condition id : 1602484938489
+2020-10-13 15:46:06,495 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1602484938504]
+2020-10-13 15:46:06,495 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : GFX01M1_HelloWorld_Condition id : 1602484938491
+2020-10-13 15:46:06,496 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2020-10-13 15:46:06,496 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2020-10-13 15:46:06,496 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2020-10-13 15:46:06,496 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2020-10-13 15:46:06,496 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1602574019385
+2020-10-13 15:46:06,497 [WARN] ApiManager:274 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.0.0: no header file found
+2020-10-13 15:46:06,497 [WARN] ApiManager:274 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.0.0: no header file found
+2020-10-13 15:46:06,497 [WARN] ApiManager:274 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.0.0: no header file found
+2020-10-13 15:46:06,497 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.2.0.0: no header file found
+2020-10-13 15:46:06,498 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.2.0.0: no header file found
+2020-10-13 15:46:06,498 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.2.0.0: no header file found
+2020-10-13 15:46:06,498 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.0.0: no header file found
+2020-10-13 15:46:06,499 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.0.0: no header file found
+2020-10-13 15:46:06,546 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (ADCFreqValue) has invalid value (24000000)
+2020-10-13 15:46:06,546 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-10-13 15:46:06,702 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 762746832 Bytes (962592768)
+2020-10-13 15:46:06,703 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2020-10-13 15:46:06,703 [INFO] ThirdParty:743 - entering critical section [change project]
+2020-10-13 15:46:06,703 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.1.1
+2020-10-13 15:46:06,703 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2020-10-13 15:46:06,703 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2020-10-13 15:46:06,703 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-10-13 15:46:06,703 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2020-10-13 15:46:06,703 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2020-10-13 15:46:06,703 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.0.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 2.0.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.0.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.15.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.0.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2020-10-13 15:46:06,704 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2020-10-13 15:46:06,705 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2020-10-13 15:46:06,705 [INFO] ThirdParty:749 - exiting critical section [change project]
+2020-10-13 15:46:06,775 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-10-13 15:46:06,779 [INFO] PinOutPanel:1418 - setPackage(STM32F103C8Tx,LQFP48)
+2020-10-13 15:46:07,197 [INFO] UtilMem:74 - Before build in PCC Used Memory: 507716408 Bytes (962592768)
+2020-10-13 15:46:07,576 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Mikhail_Kalinichenko/.stm32cubemx/plugins/power
+2020-10-13 15:46:07,607 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Mikhail_Kalinichenko/.stm32cubemx/plugins/power
+2020-10-13 15:46:07,630 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Mikhail_Kalinichenko/.stm32cubemx/plugins/power
+2020-10-13 15:46:07,632 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Mikhail_Kalinichenko/.stm32cubemx/plugins/power
+2020-10-13 15:46:07,669 [INFO] UtilMem:74 - After build in PCC Used Memory: 549133120 Bytes (962592768)
+2020-10-13 15:46:07,684 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,684 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,684 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,684 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,684 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,684 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,685 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,686 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,686 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,686 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,686 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,686 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,686 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,686 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,687 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,687 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,687 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,687 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,687 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-10-13 15:46:07,795 [INFO] OpenFileManager:294 - Restore cursor
+2020-10-13 15:46:19,603 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 538059768 Bytes (962592768)
+2020-10-13 15:46:21,033 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 547496952 Bytes (962592768)
+2020-10-13 15:46:22,698 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 602549232 Bytes (962592768)
+2020-10-13 15:46:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USB_DEVICE
+2020-10-13 15:46:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-10-13 15:46:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-10-13 15:46:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-10-13 15:46:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USB
+2020-10-13 15:46:22,919 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-10-13 15:46:22,919 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2020-10-13 15:46:23,250 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\license.tmp_save
+2020-10-13 15:46:23,307 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\license.tmp
+2020-10-13 15:46:23,517 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\gpio.tmp_save
+2020-10-13 15:46:23,614 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\gpio.tmp
+2020-10-13 15:46:23,615 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-10-13 15:46:23,715 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_vars.tmp_save
+2020-10-13 15:46:23,761 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_vars.tmp
+2020-10-13 15:46:23,880 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_inc.tmp_save
+2020-10-13 15:46:23,926 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_inc.tmp
+2020-10-13 15:46:24,042 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_HalInit.tmp_save
+2020-10-13 15:46:24,100 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_HalInit.tmp
+2020-10-13 15:46:24,130 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_Msp.tmp_save
+2020-10-13 15:46:24,192 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_Msp.tmp
+2020-10-13 15:46:24,270 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-13 15:46:24,286 [INFO] ApiDbMcu:456 - Load IP Config File for USB_DEVICE
+2020-10-13 15:46:24,295 [INFO] Middleware:1168 - No code input for Bsp Dependency
+2020-10-13 15:46:24,343 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usb_device.c_save
+2020-10-13 15:46:24,441 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usb_device.c
+2020-10-13 15:46:24,486 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usb_device.h_save
+2020-10-13 15:46:24,540 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usb_device.h
+2020-10-13 15:46:24,581 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\Target\usbd_conf.h_save
+2020-10-13 15:46:24,646 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\Target\usbd_conf.h
+2020-10-13 15:46:24,702 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\Target\usbd_conf.c_save
+2020-10-13 15:46:24,793 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\Target\usbd_conf.c
+2020-10-13 15:46:24,909 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_desc.h_save
+2020-10-13 15:46:24,963 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_desc.h
+2020-10-13 15:46:25,013 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_desc.c_save
+2020-10-13 15:46:25,172 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_desc.c
+2020-10-13 15:46:25,210 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_cdc_if.h_save
+2020-10-13 15:46:25,306 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_cdc_if.h
+2020-10-13 15:46:25,340 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_cdc_if.c_save
+2020-10-13 15:46:25,421 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_cdc_if.c
+2020-10-13 15:46:25,450 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\stm32f1xx_it.c_save
+2020-10-13 15:46:25,619 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\stm32f1xx_it.c
+2020-10-13 15:46:25,639 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\stm32f1xx_it.h_save
+2020-10-13 15:46:25,699 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\stm32f1xx_it.h
+2020-10-13 15:46:25,836 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\stm32f1xx_hal_msp.c_save
+2020-10-13 15:46:25,934 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\stm32f1xx_hal_msp.c
+2020-10-13 15:46:25,954 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\system.tmp_save
+2020-10-13 15:46:26,001 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\system.tmp
+2020-10-13 15:46:26,071 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-10-13 15:46:26,153 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\stm32f1xx_hal_conf.h
+2020-10-13 15:46:26,171 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-10-13 15:46:26,172 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-10-13 15:46:26,198 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\main.h_save
+2020-10-13 15:46:26,409 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\main.h
+2020-10-13 15:46:26,439 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\main.c_save
+2020-10-13 15:46:26,529 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\main.c
+2020-10-13 15:46:28,316 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 1095mS.
+2020-10-13 15:46:28,321 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-10-13 15:46:28,540 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-10-13 15:46:28,619 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2020-10-13 15:46:28,643 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2020-10-13 15:46:30,619 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2298mS.
+2020-10-13 15:46:30,620 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-10-13 15:46:30,624 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-10-13 19:51:32,824 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-10-13 19:51:39,859 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 736314288 Bytes (1037041664)
+2020-10-13 19:51:40,648 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 744176568 Bytes (1037041664)
+2020-10-13 19:51:43,599 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 770917296 Bytes (1037041664)
+2020-10-13 19:51:43,881 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USB_DEVICE
+2020-10-13 19:51:43,881 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-10-13 19:51:43,881 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-10-13 19:51:43,881 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-10-13 19:51:43,882 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USB
+2020-10-13 19:51:43,882 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-10-13 19:51:43,882 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2020-10-13 19:51:44,140 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\license.tmp_save
+2020-10-13 19:51:44,195 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\license.tmp
+2020-10-13 19:51:44,251 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\gpio.tmp_save
+2020-10-13 19:51:44,294 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\gpio.tmp
+2020-10-13 19:51:44,296 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-10-13 19:51:44,376 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_vars.tmp_save
+2020-10-13 19:51:44,414 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_vars.tmp
+2020-10-13 19:51:44,432 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_inc.tmp_save
+2020-10-13 19:51:44,466 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_inc.tmp
+2020-10-13 19:51:44,490 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_HalInit.tmp_save
+2020-10-13 19:51:44,542 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_HalInit.tmp
+2020-10-13 19:51:44,562 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_Msp.tmp_save
+2020-10-13 19:51:44,615 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\usb_Msp.tmp
+2020-10-13 19:51:44,666 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-10-13 19:51:44,671 [INFO] Middleware:1168 - No code input for Bsp Dependency
+2020-10-13 19:51:44,708 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usb_device.c_save
+2020-10-13 19:51:44,766 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usb_device.c
+2020-10-13 19:51:44,792 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usb_device.h_save
+2020-10-13 19:51:44,837 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usb_device.h
+2020-10-13 19:51:44,882 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\Target\usbd_conf.h_save
+2020-10-13 19:51:44,958 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\Target\usbd_conf.h
+2020-10-13 19:51:44,991 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\Target\usbd_conf.c_save
+2020-10-13 19:51:45,087 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\Target\usbd_conf.c
+2020-10-13 19:51:45,128 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_desc.h_save
+2020-10-13 19:51:45,176 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_desc.h
+2020-10-13 19:51:45,209 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_desc.c_save
+2020-10-13 19:51:45,307 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_desc.c
+2020-10-13 19:51:45,344 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_cdc_if.h_save
+2020-10-13 19:51:45,391 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_cdc_if.h
+2020-10-13 19:51:45,416 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_cdc_if.c_save
+2020-10-13 19:51:45,483 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\USB_DEVICE\App\usbd_cdc_if.c
+2020-10-13 19:51:45,560 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\stm32f1xx_it.c_save
+2020-10-13 19:51:45,664 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\stm32f1xx_it.c
+2020-10-13 19:51:45,696 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\stm32f1xx_it.h_save
+2020-10-13 19:51:45,750 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\stm32f1xx_it.h
+2020-10-13 19:51:45,777 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\stm32f1xx_hal_msp.c_save
+2020-10-13 19:51:45,884 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\stm32f1xx_hal_msp.c
+2020-10-13 19:51:45,926 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\system.tmp_save
+2020-10-13 19:51:45,967 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\MXTmpFiles\system.tmp
+2020-10-13 19:51:45,998 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-10-13 19:51:46,062 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\stm32f1xx_hal_conf.h
+2020-10-13 19:51:46,077 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-10-13 19:51:46,089 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-10-13 19:51:46,113 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\main.h_save
+2020-10-13 19:51:46,165 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Inc\main.h
+2020-10-13 19:51:46,190 [INFO] CodeEngine:188 - oldGeneratedFile, D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\main.c_save
+2020-10-13 19:51:46,276 [INFO] CodeEngine:206 - Generated code: D:\cytometr_reliable-USB-delivery\USB_device\Core\Src\main.c
+2020-10-13 19:51:47,532 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 683mS.
+2020-10-13 19:51:47,539 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-10-13 19:51:47,748 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-10-13 19:51:49,549 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2010mS.
+2020-10-13 19:51:49,576 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-10-13 19:51:49,586 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.

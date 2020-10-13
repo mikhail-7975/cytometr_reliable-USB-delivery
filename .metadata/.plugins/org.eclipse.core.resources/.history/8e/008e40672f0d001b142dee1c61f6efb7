@@ -55,11 +55,7 @@ static void MX_GPIO_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t UserRXbuffer[16];
-uint8_t haveDataToParse = 0;
-uint8_t data[1000];
-uint8_t startSymbol = 255;
-uint8_t stopSymbol = 254;
+
 /* USER CODE END 0 */
 
 /**
@@ -69,9 +65,7 @@ uint8_t stopSymbol = 254;
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-	for(int x = 0; x < 1000; x++) {
-		  data[x] = (int) (150 * (exp(-(x - 100) * (x - 100) / 50 ) + exp(-(x - 700) * (x - 700) / 20000  ) ));
-	  }
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -101,20 +95,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-	  if(haveDataToParse) {
-		  if(UserRXbuffer[0] == 'r') {
-			  while(CDC_Transmit_FS(&startSymbol, 1) == USBD_BUSY);
-			  while(CDC_Transmit_FS(&data, 1000) == USBD_BUSY);
-			  while(CDC_Transmit_FS(&stopSymbol, 1) == USBD_BUSY);
-		  }
-		  if(UserRXbuffer[0] == 'a') {
-			  for(int x = 0; x < 1000; x++) {
-			 		  data[x] = (int) (1 + rand() % 10 + 150 * (exp(-(x - 100) * (x - 100) / 50 ) + exp(-(x - 700) * (x - 700) / 20000  ) ));
-			 	  }
-		  }
-		  haveDataToParse = 0;
-	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -174,30 +154,17 @@ void SystemClock_Config(void)
   */
 static void MX_GPIO_Init(void)
 {
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin : PC13 */
-  GPIO_InitStruct.Pin = GPIO_PIN_13;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-
 }
 
 /* USER CODE BEGIN 4 */
 void CDC_Recive_Callback(uint8_t* Buf, uint16_t* len) {
-	memcpy(&UserRXbuffer, Buf, 16);
-	HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-	haveDataToParse = 1;
+
 }
 /* USER CODE END 4 */
 

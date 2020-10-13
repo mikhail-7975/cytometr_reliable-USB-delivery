@@ -70,7 +70,7 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
 	for(int x = 0; x < 1000; x++) {
-		  data[x] = (int) (150 * (exp(-(x - 100) * (x - 100) / 50 ) + exp(-(x - 700) * (x - 700) / 20000  ) ));
+		  data[x] = (int) 150 * (exp(-(x - 100) * (x - 100) / 50 ) + exp(-(x - 700) * (x - 700) / 20000  ) );
 	  }
   /* USER CODE END 1 */
 
@@ -101,17 +101,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
 	  if(haveDataToParse) {
-		  if(UserRXbuffer[0] == 'r') {
-			  while(CDC_Transmit_FS(&startSymbol, 1) == USBD_BUSY);
-			  while(CDC_Transmit_FS(&data, 1000) == USBD_BUSY);
-			  while(CDC_Transmit_FS(&stopSymbol, 1) == USBD_BUSY);
-		  }
-		  if(UserRXbuffer[0] == 'a') {
-			  for(int x = 0; x < 1000; x++) {
-			 		  data[x] = (int) (1 + rand() % 10 + 150 * (exp(-(x - 100) * (x - 100) / 50 ) + exp(-(x - 700) * (x - 700) / 20000  ) ));
-			 	  }
+		  if(UserRXbuffer[0] = 'r') {
+			  while(CDC_Transmit_FS(startSymbol, 1) == USBD_BUSY);
+			  while(CDC_Transmit_FS(data, 1000) == USBD_BUSY);
+			  while(CDC_Transmit_FS(stopSymbol, 1) == USBD_BUSY);
 		  }
 		  haveDataToParse = 0;
 	  }

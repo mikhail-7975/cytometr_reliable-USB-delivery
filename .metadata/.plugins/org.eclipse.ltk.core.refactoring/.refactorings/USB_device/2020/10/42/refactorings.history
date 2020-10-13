@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;USB_device/Core/Inc/commands&apos; to &apos;commands.h&apos;" description="Rename resource &apos;commands&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/commands" name="commands.h" stamp="1602498180419" updateReferences="true"/>
+</session>

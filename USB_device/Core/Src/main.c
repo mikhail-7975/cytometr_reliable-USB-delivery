@@ -94,25 +94,33 @@ int main(void)
   MX_GPIO_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-
+  uint8_t count = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
+	  //HAL_Delay(0 + rand() % 3);
 	  if(haveDataToParse) {
+
 		  if(UserRXbuffer[0] == 'r') {
 			  while(CDC_Transmit_FS(&startSymbol, 1) == USBD_BUSY);
+			  //HAL_Delay(0 + rand() % 3);
 			  while(CDC_Transmit_FS(&data, 1000) == USBD_BUSY);
+			  //HAL_Delay(0 + rand() % 3);
 			  while(CDC_Transmit_FS(&stopSymbol, 1) == USBD_BUSY);
 		  }
+
 		  if(UserRXbuffer[0] == 'a') {
+			  //HAL_Delay(0 + rand() % 3);
 			  for(int x = 0; x < 1000; x++) {
-			 		  data[x] = (int) (1 + rand() % 10 + 150 * (exp(-(x - 100) * (x - 100) / 50 ) + exp(-(x - 700) * (x - 700) / 20000  ) ));
+			 		  data[x] = count;//(int) (1 + rand() % 10 + 150 * (exp(-(x - 100) * (x - 100) / 50 ) + exp(-(x - 700) * (x - 700) / 20000  ) ));
 			 	  }
+			  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+			  count++;
 		  }
+
 		  haveDataToParse = 0;
 	  }
     /* USER CODE END WHILE */
@@ -196,7 +204,7 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void CDC_Recive_Callback(uint8_t* Buf, uint16_t* len) {
 	memcpy(&UserRXbuffer, Buf, 16);
-	HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+
 	haveDataToParse = 1;
 }
 /* USER CODE END 4 */
